@@ -1,0 +1,231 @@
+body {
+    overflow: hidden;
+}
+#interface {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    width:98%;
+    height: 96vh;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0.5% auto;
+
+
+
+}
+
+#slideBar {
+    background-color: #0d6efd;
+    display: block;
+    padding: 10px;
+    border-radius: 17px 0 0 17px;
+
+
+}
+#slideBar div {
+
+    width: 100%;
+
+}
+.btn_slide {
+    width: 100%;
+    border: none;
+    height: 60px;
+    background-color: #0a53be;
+
+    padding: 15px;
+    text-align: left;
+}
+.btn_slide:focus {
+    background-color: white;
+}
+#slideBar div {
+    height: 62px;
+    margin: 0;
+    text-align: right;
+}
+
+.icone {
+    display: block;
+    margin: 12.5% auto;
+    width: 100%;
+
+}
+#caixas {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    cursor: pointer;
+}
+#caixas .item_caixa {
+    box-shadow: 0 0 3px rgba(0,0,0,.4);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.sp1 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+.sp2 {
+    color: #c99595;
+    font-size: 10pt;
+}
+.item_caixa div {
+
+}
+.resultado {
+    padding: 10px;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+    height: 56.8vh;
+    margin: 20px auto auto auto;
+    width: 100%;
+    overflow: auto;
+
+}
+div#perfil {
+   display: grid;
+    grid-template-columns: 50% 40% 20%;
+}
+#perfil div.abas {
+    padding:5px;
+
+}
+#foto {
+    justify-items: right;
+}
+#pe {
+    width: 40%;
+
+}
+.paciente {
+    display: inline-block;
+    height: 190px;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+    padding: 10px;
+    margin: auto;
+    transition: 0.4s;
+}
+.paciente:hover{
+    background-color: #ded2d2;
+}
+#conteudo {
+    padding: 2px;
+    border-bottom: 2px solid #0d6efd;
+    border-right:  2px solid #0d6efd;
+    border-top:  2px solid #0d6efd;
+    border-radius: 0 17px 17px 0;
+}
+.gridf {
+
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+   'nome nome'
+   'bi datanas'
+   'email tel'
+   'casa sexo'
+   'mar hora'
+   'ser den'
+   'total total'
+   'cad cad'
+   'pes pes'
+    'el act'
+    'alt alt'
+    'lim lim'
+
+     ;
+}
+.gridf .item {
+
+    padding: 2px;
+
+}
+#col_nome {
+    grid-area: nome;
+}
+#col_bi{
+    grid-area: bi;
+}
+#col_datanas {
+    grid-area: datanas;
+}
+#col_pes{
+    grid-area: pes;
+    display: none;
+}
+#col_numero {
+    grid-area: tel;
+}
+#col_email {
+    grid-area: email;
+}
+#col_morada {
+    grid-area: casa;
+}
+#col_sexo{
+    grid-area: sexo;
+}
+#col_denstista{
+    grid-area: den;
+}
+#col_mar {
+    grid-area: mar;
+}
+#col_ser{
+    grid-area: ser;
+}
+#col_total {
+    grid-area: total;
+}
+#col_load{
+    grid-area: load;
+}
+#col_hora{
+    grid-area: hora;
+}
+#col_act{
+    grid-area: act;
+    display: none;
+}
+#col_el {
+    grid-area: el;
+    display: none;
+}
+#col_cad{
+    grid-area: cad;
+
+}
+#col_alt{
+    grid-area: alt;
+}
+#col_lim{
+    grid-area: lim;
+}
+.texto {
+    border: none;
+    border-bottom:2px solid #dedede;
+    border-radius: 0;
+
+}
+.texto:focus{
+    box-shadow: none;
+}
+dialog::backdrop{
+    background-color: rgb(0 0 0/.5);
+}
+#Mensagens {
+    height: 300px;
+    width: 400px;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0/.3);
+    border-radius: 10px;
+}

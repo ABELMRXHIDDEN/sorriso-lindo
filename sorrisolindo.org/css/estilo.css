@@ -1,0 +1,110 @@
+body {
+  
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cabecalho {
+    background-color: rgb(155, 129, 235);
+    padding: 10px;
+}
+.tela-login{
+    
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    display: block;
+    margin: 0px auto;
+   
+}
+.logo {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.icone-login {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    margin: 20px auto;
+
+}
+.texto {
+    
+    outline: none;
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 12pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+
+}
+.bt-enviar {
+   
+    margin: auto;
+    display: block;
+    width: 200px;
+    background-color: rgb(155, 129, 235);
+    border: 1px solid aqua;
+    padding: 13px;
+    
+    transition: 0.7s;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.bt-enviar:hover{
+
+background-color: rgb(90, 53, 192);
+color: white;
+}
+.titulo {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.login-01{
+    display: inline-block;
+    float: right;
+    margin-right:30px;
+    background-color: #2e3a69;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.login-02{
+    display: inline-block;
+float: right;
+    background-color: #2e3a69;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    transition: 0.4s;
+    margin-right: 100px;
+}
+.home00 {
+    background-color: #2e3a69;
+}
+.login-01:hover {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.login-02:hover {
+    background-color: purple;
+    border-radius: 20px;
+}
+.imgs {
+    width: 300px;
+}
+
+.carrinho {
+    border: 1px solid black;
+    width: 1000px;
+}

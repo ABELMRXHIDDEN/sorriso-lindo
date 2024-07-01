@@ -1,0 +1,66 @@
+body {
+    background: url("../img/fundo/fundo4.jpg");
+    background-size: 100%;
+
+}
+
+.loading {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.loading img{
+    width: 10%;
+}
+.form-login {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.17);
+    display: none;
+}
+.login-logo {
+    width: 100%;
+    height: 50%;
+    background: url("../img/logo.png") no-repeat 50% 50%;
+    background-size:50% 100%;
+}
+
+.texto {
+    border: none;
+    border-bottom: 2px solid #e1c5c5;
+    border-radius: 0;
+    outline: none;
+    margin: 5px;
+    background: none;
+}
+.texto:focus{
+   border-radius: 10px;
+    background: none;
+}
+#sms-login {
+    padding: 10px;
+
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    box-shadow: 0 8px 32px rgba(0,0,0,0.17);
+    position: absolute;
+    bottom: 10px;
+    width: 500px;
+    backdrop-filter: blur(5px);
+}
+.btn-outline-primary{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.btn-outline-primary:hover{
+    color: rgba(255, 255, 255, 1);
+
+}

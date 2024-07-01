@@ -1,0 +1,115 @@
+body{
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.4s cubic-bezier(0, 1.57, .67, 1.18);
+
+}
+/*formatando o cabecalho*/
+.cabecalho{
+    margin-top: 0px;
+    background-color: #5064af;
+    padding: 10px;
+    width: 100%;
+
+}
+/*formatando o campo de pesquisa*/
+input#pesquisa{
+    display: block;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    margin:auto auto auto auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    outline: none;
+}
+/*formatando a div da foto de perfil*/
+
+.perfil{
+    position: absolute;
+    right: 140px;
+    top: 2px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.sair{
+  cursor: pointer;
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    position: absolute;
+    right: 80px;
+    top: 2px;
+    border: none;
+    background: url("../icones/icons8_exit.ico") no-repeat;
+    background-size: 50px 60px;
+    background-position: 50% 50%;
+
+}
+.carrinho {
+    cursor: pointer;
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    position: absolute;
+    right: 200px;
+    top: 2px;
+}
+div.resultado {
+    margin-top:10px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 580px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    overflow: auto;
+}
+.fundo{
+
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #ccc;
+    cursor: pointer;
+    width: 230px;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+img.foto_prod{
+    width: 230px;
+    height: 200px;
+}
+.bt-enviar {
+    border: none;
+    padding: 15px;
+    margin-left: 190px;
+}
+.des {
+    background: white;
+
+}
+.nome {
+    color: gray;
+    font-size: 14pt;
+    display: block;
+   text-align: left;
+    font-family: Impact;
+    margin-bottom: -20px;
+}
+.preco {
+    font-size: 14pt;
+    display: block;
+    text-align: right;
+    font-family: Impact;
+    color: gray;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}

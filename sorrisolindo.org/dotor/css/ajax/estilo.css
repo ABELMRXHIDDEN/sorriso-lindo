@@ -1,0 +1,38 @@
+div.inforPAciente{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    gap: 2px;
+
+}
+#col_Relatorio{
+    display: none;
+    width: 90%;
+    margin: auto;
+}
+.relatorio{
+    display: inline-block;
+    height: 295px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+    padding: 10px;
+}
+.relatorio:hover{
+    background-color: rgb(238, 231, 231);
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+#gridres {
+height: 300px;
+    width: 100%;
+    padding: 15px;
+    gap:2px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    overflow: auto;
+}
+.receita{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#col_rec {
+    display: none;
+}

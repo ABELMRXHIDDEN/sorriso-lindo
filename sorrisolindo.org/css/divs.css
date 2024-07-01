@@ -1,0 +1,29 @@
+.interface {
+    border: 1px solid black;
+    width: 95%;
+    height: 700px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.dados {
+    border: 1px solid black;
+    width: 30%;
+    display: inline-block;
+ 
+}
+.registros {
+    
+    display: inline-block;
+    border: 1px solid black;
+    width: 69%;
+    float: right;
+    
+}
+.img_user {
+    width: 50%;
+   
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}

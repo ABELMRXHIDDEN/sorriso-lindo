@@ -1,0 +1,506 @@
+:root{
+    --blue: #0030c2;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+body {
+    overflow: hidden;
+    font-family: Calibri, sans-serif;
+}
+#interface {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    width:98%;
+    height: 96vh;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0.5% auto;
+
+
+
+}
+
+#slideBar {
+    background-color: #0d6efd;
+    display: block;
+    padding: 10px;
+    border-radius: 17px 0 0 17px;
+
+
+}
+#slideBar div {
+
+    width: 100%;
+
+}
+.btn_slide {
+    width: 100%;
+    border: none;
+    height: 60px;
+    background-color: #0a53be;
+
+    padding: 15px;
+    text-align: left;
+}
+.btn_slide:focus {
+    background-color: white;
+}
+#slideBar div {
+    height: 62px;
+    margin: 0;
+    text-align: right;
+}
+
+.icone {
+    display: block;
+    margin: 12.5% auto;
+    width: 100%;
+
+}
+#caixas {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    cursor: pointer;
+}
+#caixas .item_caixa {
+    box-shadow: 0 0 3px rgba(0,0,0,.4);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.sp1 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+.sp2 {
+    color: #c99595;
+    font-size: 10pt;
+}
+.item_caixa div {
+
+}
+.resultado {
+    padding: 10px;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+    height: 56.8vh;
+    margin: 20px auto auto auto;
+    width: 100%;
+    overflow: auto;
+
+}
+div#perfil {
+   display: grid;
+    grid-template-columns: 50% 40% 20%;
+}
+#perfil div.abas {
+    padding:5px;
+
+}
+#foto {
+    justify-items: right;
+}
+#pe {
+    width: 40%;
+
+}
+.paciente {
+    display: inline-block;
+    height: 190px;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+    padding: 10px;
+    margin: auto;
+    transition: 0.4s;
+}
+.paciente:hover{
+    background-color: #ded2d2;
+}
+#conteudo {
+    padding: 2px;
+    border-bottom: 2px solid #0d6efd;
+    border-right:  2px solid #0d6efd;
+    border-top:  2px solid #0d6efd;
+    border-radius: 0 17px 17px 0;
+}
+.gridf {
+    width:100%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'n n'
+   'nome nome'
+   'bi datanas'
+   'email tel'
+   'casa sexo'
+   'ser den'
+    'vc vc'
+    'a c'
+    'senha senha'
+    'b b'
+    'v u'
+
+   'cad cad'
+   'act act'
+    'lim lim'
+    'sms sms'
+
+
+     ;
+}
+#col_senha{
+    grid-area: senha;
+}
+#col_cargo{
+    grid-area: a;
+}
+#col_salario {
+    grid-area: c;
+}
+.bin {
+    grid-area: b;
+}
+#uk {
+    grid-area: vc;
+}
+.infofunc {
+    grid-area: n;
+}
+.gridf .item {
+
+    padding: 2px;
+
+}
+#col-sms {
+    grid-area: sms;
+
+}
+#col_nome {
+    grid-area: nome;
+}
+#col_bi{
+    grid-area: bi;
+}
+#col_datanas {
+    grid-area: datanas;
+}
+
+#col_numero {
+    grid-area: tel;
+}
+#col_email {
+    grid-area: email;
+}
+#col_morada {
+    grid-area: casa;
+}
+#col_sexo{
+    grid-area: sexo;
+}
+
+
+#col_act{
+    grid-area: act;
+    display: none;
+}
+
+#col_cad{
+    grid-area: cad;
+
+}
+
+#col_eml{
+    grid-area: v;
+
+}
+
+#col_senha{
+    grid-area: u;
+
+}
+
+#col_lim{
+    grid-area: lim;
+}
+.texto {
+    border: none;
+    border-bottom:2px solid #dedede;
+    border-radius: 0;
+
+}
+.texto:focus{
+    box-shadow: none;
+}
+
+#Mensagens {
+
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0/.3);
+    border-radius: 10px;
+}
+.texto {
+    border: none;
+    border-bottom: 1px solid #e1c5c5;
+    border-radius: 0;
+    outline: none;
+    margin: 5px;
+    background: none;
+}
+.texto:focus{
+    border-radius: 10px;
+    background: none;
+}
+.Mensagem {
+    padding: 10px;
+    position: absolute;
+    right: -450px;
+    bottom: -28px;
+    width: 93%;
+    background-color: rgba(255, 255, 255, 0.34);
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+    color: red;
+}
+.view {
+    width:450px;
+    height: 620px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,.08);
+    border-radius: 10px;
+}
+
+.tabelaPaciente {
+    display: grid;
+    width: 100%;
+   grid-template-columns: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 65%;
+}
+.tabelaPaciente .linha {
+    width: 100%;
+    display: grid;
+    height: 55px;
+    grid-template-columns: 30% 30% 20% 10% 10%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tabelaPaciente .linha2 {
+    width: 100%;
+    display: grid;
+    height: 55px;
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tabelaPaciente .titulo2 {
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
+    justify-items: center;
+    margin-bottom: 0;
+    background-color: #ddd;
+}
+.tabelaPaciente .titulo {
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 30% 30% 20% 10% 10%;
+   justify-items: center;
+   margin-bottom: 0;
+   background-color: #ddd;
+}
+
+
+.tabelaPaciente .linha,.linha2  {
+   border-bottom: 1px solid rgba(0,0,0,.08);
+   transition: 0.5s;
+}
+.tabelaPaciente .linha:hover,.linha2:hover  {
+   
+   background-color: #ddd;
+   box-shadow: 0 0 20px rgba(0,0,0,.08);
+ }
+ 
+.tabelaPaciente button {
+    border: none;
+    padding: 5px;
+}
+#exibirCadastro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+}
+#corpo-view {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#fechar-view {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.icone-paciente{
+    width: 30px;
+    cursor: pointer;
+}
+#exibirCadastro img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#sms-cadas {
+    font-size: 9pt;
+    position: fixed;
+    top: 20px;
+    left: 100px;
+}
+.tabelaPaciente .coluna p{
+    position: fixed;
+    right: 100px;
+    font-size: 9pt;
+    display: none;
+}
+.search {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    margin: 0 10px;
+}
+.search label {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.search label input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 5px 20px 5px 35px;
+    outline: none;
+    border: 1px solid var(--black2);
+
+}
+.search label img{
+    position: absolute;
+    top:10px;
+    left: 3px;
+    width: 25px;
+}
+.perguntas{
+    width: 100%;
+
+}
+.perguntas td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.dir{
+    width: 20%;
+}
+.esq{
+    width: 80%;
+}
+#perguntas {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    height: 100vh;
+    overflow: hidden;
+}
+#Relatorio {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#Servicos {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+#Servicos td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: justify;
+}
+#Receita{
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+
+}
+#Medicamentos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 10% 60%;
+}
+.cabecalho-perguntas {
+
+    padding: 10px 5px;
+}
+.cabecalho-perguntas {
+    display: grid;
+    grid-template-areas:
+            'pergunta pergunta pergunta'
+            'resposta resposta salvar'
+;
+}
+#pr-per{
+    grid-area: pergunta;
+}
+#pr-res{
+    grid-area: resposta;
+}
+#add {
+    grid-area: salvar;
+}
+.perg {
+    height: 60%;
+
+    overflow-y: auto;
+}
+.caixa-pr {
+    width: 90%;
+    display: block;
+    margin:5px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ddd;
+}
+.pergunta {
+    font-size: 14pt;
+    color: black;
+}

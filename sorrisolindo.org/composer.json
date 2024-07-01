@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/sorrisolindo.ao",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grupo 2",
+      "email": "abellukoki72@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "dompdf/dompdf": "^0.8.3",
+    "ext-pdo": "*",
+    "ext-mysqli": "*"
+  }
+}

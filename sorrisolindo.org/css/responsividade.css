@@ -1,0 +1,61 @@
+@media screen and (min-width : 768px) {
+
+    .login{
+        width: 75%;
+        margin-top: 0;
+        border-radius: 20px;
+        box-shadow: 0 0 3px rgba(0 ,0 ,0 ,.3);
+    }
+    .Cadastrar{
+        width: 75%;
+        margin-top: 0;
+        border-radius: 5px;
+
+
+    }
+    #logom {
+        width: 30%;
+    }
+    #bar {
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px){
+    .login{
+        width: 30%;
+        margin-top: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 3px rgba(0 ,0 ,0 ,.3);
+        height: 80vh;
+    }
+    div#img-lg {
+        margin-top: 0;
+    }
+    .Cadastrar{
+        width: 75%;
+        margin-top: 0;
+        border-radius: 5px;
+
+    }
+    #logom {
+        width: 20%;
+    }
+#bar {
+    display: none;
+}
+}
+@media screen and (min-width: 1200px){
+    .login{
+        width: 40%;
+        margin-top: 0;
+        border-radius: 20px;
+        box-shadow: 0 0 3px rgba(0 ,0 ,0 ,.3);
+        height: 90vh;
+    }
+    div#img-lg {
+        margin-top: 0;
+    }
+    #bar {
+        display: none;
+    }
+}

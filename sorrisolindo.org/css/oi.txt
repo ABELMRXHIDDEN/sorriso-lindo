@@ -1,0 +1,16 @@
+ echo "
+    <div class='tela-login'>
+    <form>
+        <img src='$foto' class='icone-login'><br>
+        <label>$nome</label><br><br>
+        <label>$preco</label><br><br>
+        <label>$des</label><br><br>
+        <label>QUAntidade: $qtd</label><br><br>
+
+
+        <input type=\"submit\" name=\"eliminar\" class='bt-enviar' value='Remover'>
+
+
+    </form>
+</div>
+    ";
